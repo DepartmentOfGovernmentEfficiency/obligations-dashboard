@@ -39,7 +39,6 @@ const Dashboard = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900">
-      {/* Header Section */}
       <div className="bg-black bg-opacity-30 backdrop-blur-sm border-b border-blue-700">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-center gap-4">
@@ -58,9 +57,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Main Content */}
       <div className="container mx-auto px-4 py-8">
-      {/* Floating Control Panel */}
       <div className="fixed bottom-8 left-8">
         <div className="relative group">
           <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-yellow-400 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
@@ -84,7 +81,6 @@ const Dashboard = () => {
         </div>
       </div>
 
-        {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div className="bg-gradient-to-br from-blue-800 to-blue-900 rounded-xl p-6 shadow-xl border border-blue-700">
             <div className="flex items-center gap-4 mb-4">
@@ -106,7 +102,6 @@ const Dashboard = () => {
           </div>
         </div>
 
-        {/* Chart Section */}
         <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-xl p-8 shadow-xl border border-blue-700">
           <h2 className="text-3xl font-bold text-blue-100 mb-8 text-center">
             Federal Obligations Analysis
@@ -171,7 +166,6 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Floating Refresh Button */}
       <div className="fixed bottom-8 right-8">
         <div className="relative group">
           <div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-400 to-blue-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
@@ -188,7 +182,6 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Footer */}
       <footer className="border-t border-blue-800 mt-12 py-6 bg-black bg-opacity-30">
         <div className="container mx-auto px-4">
           <p className="text-center text-blue-300">
